@@ -1,78 +1,102 @@
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sketchy LinkedIn Masterclass</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinkedBoost Pro</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
 </head>
-<body class="bg-white text-blue-900">
+<body class="bg-gray-50 text-gray-900 font-poppins">
 
-  <header class="bg-blue-100 shadow-md">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold hover:text-blue-600 transition duration-300">LinkedIn Flex Masterclass</h1>
-      <a href="#buy" class="bg-blue-600 text-white px-4 py-2 rounded hover:scale-110 hover:rotate-3 transition duration-500">Buy Now</a>
+  <header class="bg-gradient-to-r from-purple-700 via-pink-600 to-purple-500 shadow-md sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <h1 class="text-3xl font-extrabold tracking-wide text-white cursor-default">LinkedBoost Pro</h1>
+      <nav class="space-x-6 text-white uppercase text-sm font-semibold tracking-widest">
+        <a href="#overview" class="hover:text-yellow-400 transition">Overview</a>
+        <a href="#features" class="hover:text-yellow-400 transition">Features</a>
+        <a href="#faq" class="hover:text-yellow-400 transition">FAQ</a>
+        <a href="#purchase" class="hover:text-yellow-400 transition">Purchase</a>
+      </nav>
     </div>
   </header>
 
-  <section class="bg-white py-16">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-4xl font-bold mb-4 hover:text-blue-600 transition duration-300">Learn How to Post Once and Get a Job</h2>
-      <p class="text-lg mb-8 hover:underline">Tired of working? Just post a picture of your coffee with #OpenToWork.</p>
-      <a href="#buy" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:scale-110 hover:rotate-3 transition duration-500">Join the Flex</a>
-    </div>
-  </section>
+  <main class="max-w-6xl mx-auto px-6 py-16">
 
-  <section class="bg-blue-50 py-12">
-    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded shadow text-center hover:bg-blue-200 transition duration-300">
-        <h3 class="text-xl font-semibold mb-2 hover:text-blue-600 transition duration-300">💼 LinkedIn Clout</h3>
-        <p>Get 500+ connections with zero effort. Recruiters will chase you.</p>
+    <section id="overview" class="text-center mb-20">
+      <h2 class="text-5xl font-bold mb-6">Unlock Your LinkedIn Potential</h2>
+      <p class="text-lg max-w-3xl mx-auto mb-10 text-gray-700">Master the art of posting once and landing your dream job effortlessly. We’ll teach you the secrets recruiters don’t want you to know.</p>
+      <a href="#purchase" class="inline-block bg-pink-600 text-white px-12 py-4 rounded-full font-semibold uppercase tracking-wider hover:bg-pink-700 transition shadow-lg transform hover:scale-105">Join the Masterclass</a>
+    </section>
+
+    <section id="features" class="grid md:grid-cols-3 gap-10 mb-20 relative">
+      <div class="relative bg-white rounded-xl shadow-2xl p-10 max-w-sm mx-auto transform -rotate-3 hover:rotate-0 transition-transform duration-500 cursor-pointer">
+        <div class="absolute -top-4 -left-4 w-14 h-14 bg-pink-300 rounded-full flex items-center justify-center text-3xl">💼</div>
+        <h3 class="mt-8 mb-4 text-2xl font-bold text-purple-700">LinkedIn Clout Booster</h3>
+        <p class="text-gray-700">Gain 500+ connections effortlessly. Get recruiters knocking at your door.</p>
       </div>
-      <div class="bg-white p-6 rounded shadow text-center hover:bg-blue-200 transition duration-300">
-        <h3 class="text-xl font-semibold mb-2 hover:text-blue-600 transition duration-300">📸 Cringe to Riches</h3>
-        <p>Write posts like "I got rejected 47 times before getting my dream job" and go viral.</p>
+
+      <div class="relative bg-white rounded-xl shadow-2xl p-10 max-w-sm mx-auto transform rotate-3 hover:rotate-0 transition-transform duration-500 cursor-pointer">
+        <div class="absolute -top-5 right-5 w-16 h-16 bg-purple-300 rounded-full flex items-center justify-center text-4xl">📸</div>
+        <h3 class="mt-12 mb-4 text-2xl font-bold text-pink-700">Storytelling Viral Posts</h3>
+        <p class="text-gray-700">Craft authentic posts like “Rejected 47 times before success” to captivate and grow your audience.</p>
       </div>
-      <div class="bg-white p-6 rounded shadow text-center hover:bg-blue-200 transition duration-300">
-        <h3 class="text-xl font-semibold mb-2 hover:text-blue-600 transition duration-300">🔗 Master the Algorithm</h3>
-        <p>Learn how to engage with influencers and farm likes.</p>
+
+      <div class="relative bg-white rounded-xl shadow-2xl p-10 max-w-sm mx-auto transform rotate-1 hover:rotate-0 transition-transform duration-500 cursor-pointer">
+        <div class="absolute -bottom-5 left-8 w-12 h-12 bg-pink-400 rounded-full flex items-center justify-center text-3xl">🔗</div>
+        <h3 class="mt-8 mb-4 text-2xl font-bold text-purple-700">Algorithm Mastery</h3>
+        <p class="text-gray-700">Engage with influencers and master the LinkedIn algorithm to boost your reach.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 max-w-2xl">
-      <h2 class="text-3xl font-bold text-center mb-8">FAQs</h2>
-      <div class="space-y-4">
-        <details class="border rounded px-4 py-3 cursor-pointer hover:bg-blue-100 transition duration-300">
-          <summary class="font-semibold">Is this a scam?</summary>
-          <p class="mt-2">No.</p>
-        </details>
-        <details class="border rounded px-4 py-3 cursor-pointer hover:bg-blue-100 transition duration-300">
-          <summary class="font-semibold">Do I need a LinkedIn account?</summary>
-          <p class="mt-2">Why would u need a linkedin bruh</p>
-        </details>
-        <details class="border rounded px-4 py-3 cursor-pointer hover:bg-blue-100 transition duration-300">
-          <summary class="font-semibold">What if I don’t get a job?</summary>
-          <p class="mt-2">You can always sell your own masterclass.</p>
-        </details>
+    <section id="faq" class="max-w-4xl mx-auto mb-20">
+      <h3 class="text-3xl font-bold mb-10 text-center">FAQs</h3>
+      <div class="flex justify-center gap-6 flex-wrap">
+        <button class="faq-tab bg-purple-200 px-6 py-3 rounded-lg font-semibold text-purple-900 hover:bg-purple-300 focus:outline-none" data-target="faq1">Is this a scam?</button>
+        <button class="faq-tab bg-pink-200 px-6 py-3 rounded-lg font-semibold text-pink-900 hover:bg-pink-300 focus:outline-none" data-target="faq2">Do I need LinkedIn?</button>
+        <button class="faq-tab bg-purple-200 px-6 py-3 rounded-lg font-semibold text-purple-900 hover:bg-purple-300 focus:outline-none" data-target="faq3">What if no job?</button>
       </div>
-          <img src="https://logos-world.net/wp-content/uploads/2020/06/Linkedin-Logo-2011.png" class="w-auto" alt="Linkedin">
 
-    </div>
-  </section>
+      <div class="mt-8 space-y-6">
+        <div id="faq1" class="faq-content text-gray-700 hidden">
+          No, this is completely legit. We help you boost your profile with real strategies.
+        </div>
+        <div id="faq2" class="faq-content text-gray-700 hidden">
+          LinkedIn is essential — it’s where the professional magic happens. You need an account for results.
+        </div>
+        <div id="faq3" class="faq-content text-gray-700 hidden">
+          If you don’t get a job, you’ll gain skills to build your own online brand or masterclass.
+        </div>
+      </div>
+    </section>
 
-  <section id="buy" class="bg-blue-100 py-12 text-center">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-4 hover:text-blue-600 transition duration-300">Only $499.99 (or 3 coffees)</h2>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg hover:scale-110 hover:rotate-3 transition duration-500">Buy the Course</a>
-    </div>
-  </section>
+    <section id="purchase" class="bg-pink-600 rounded-xl text-white py-14 text-center shadow-xl max-w-md mx-auto">
+      <h3 class="text-4xl font-extrabold mb-6">Just $499.99 (or 3 coffees ☕️)</h3>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="inline-block bg-purple-900 text-pink-300 font-bold uppercase px-12 py-4 rounded-full hover:bg-purple-800 shadow-lg transition transform hover:scale-110">Buy Now</a>
+    </section>
 
-  <footer class="bg-blue-900 text-white py-6">
-    <div class="container mx-auto px-4 text-center">
-      <p>© 2025 Linkedinify Inc. No refunds.</p>
-    </div>
+              <img src="https://logos-world.net/wp-content/uploads/2020/06/Linkedin-Logo-2011.png" class="w-auto" alt="Linkedin">
+
+  </main>
+
+  <footer class="bg-purple-900 text-purple-100 text-center py-6 mt-16 tracking-wide font-semibold">
+    © 2025 LinkedBoost Pro — No refunds guaranteed.
   </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('.faq-tab')
+    const contents = document.querySelectorAll('.faq-content')
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        contents.forEach(c => c.classList.add('hidden'))
+        tabs.forEach(t => t.classList.remove('underline', 'font-extrabold'))
+        document.getElementById(tab.dataset.target).classList.remove('hidden')
+        tab.classList.add('underline', 'font-extrabold')
+      })
+    })
+
+    tabs[0].click()
+  </script>
 
 </body>
 </html>
